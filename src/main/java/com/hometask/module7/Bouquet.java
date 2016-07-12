@@ -1,6 +1,7 @@
-package com.HomeTaskModule3.Flowers;
+package com.hometask.module7;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Bouquet {
@@ -45,10 +46,8 @@ public class Bouquet {
         for (Flower flower:bouquet
              ) {
             split = flower.toString().split(" ");
-            for (int i = 0;i<split.length;i++){
-                list.add(split[i]);
+            list.addAll(Arrays.asList(split));
         }
-
-        }return list;
+        return list;
     }
 }

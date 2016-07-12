@@ -1,4 +1,4 @@
-package com.HomeTaskModule3.Flowers;
+package com.hometask.module7;
 
 public class Aster extends Flower {
 
