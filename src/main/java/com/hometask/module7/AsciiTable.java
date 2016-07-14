@@ -68,6 +68,7 @@ public class AsciiTable implements Table {
         for (String[] row : table) {
             printRow(row);
         }
+        System.out.println();
     }
 
     @Override

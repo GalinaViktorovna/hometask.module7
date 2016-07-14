@@ -30,7 +30,7 @@ public class Runner {
         asciiTable.setCell(bouquetOfFlower.prepareListForTable());
 
         asciiTable.printTable();
-        System.out.println(asciiTable.getCell(3, 2));
+
 
 
         FlowerComparator flowerComparator = new FlowerComparator();
@@ -42,9 +42,10 @@ public class Runner {
         }
         for (Flower flower : sortFlower
                 ) {
-            System.out.println(flower);
+            System.out.print("[" + flower + "]");
 
         }
+        System.out.println();
 
 
     }
